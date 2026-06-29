@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outline — CSS5280</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="theme-picker" class="theme-picker"></div>
+
+
+    <div id="compact-header"></div>
+
+<nav id="navbar" class="navbar"></nav>
+
+<main class="page-content">
+        <div class="section-container">
+
+            <!-- Course Overview -->
+            <div class="page-title">
+                <h2>Course Outline</h2>
+                <p>This course introduces students to the computational study of complex systems through two complementary lenses. The first part focuses on network science. The second part turns to modeling and simulation, emphasizing how to design complex systems from the bottom up. Students develop agent-based models to simulate social phenomena. Then extend them using large language models (LLMs) to incorporate language-enabled, heterogeneous agents.</p>
+            </div>
+
+            <!-- Quick Nav -->
+            <div class="participation-grid" style="margin-bottom: 16px;">
+                <a href="#overview" class="outline-nav-card">
+                    <h4>Course Overview</h4>
+                    <p>Network science, agent-based modeling, and LLM-driven simulations.</p>
+                </a>
+                <a href="#assessment" class="outline-nav-card">
+                    <h4>Assessment Scheme</h4>
+                    <p>Class participation, lab engagement, midterm project, and final project.</p>
+                </a>
+                <a href="#components" class="outline-nav-card">
+                    <h4>Course Components</h4>
+                    <p>Weekly activities, lectures, and participation.</p>
+                </a>
+                <a href="#policies" class="outline-nav-card">
+                    <h4>Course Policies</h4>
+                    <p>Late submission policy, academic honesty, and grade criteria.</p>
+                </a>
+            </div>
+
+            <!-- Three Pillars -->
+            <div id="overview" class="outline-grid three-col" style="scroll-margin-top: 80px;">
+                <div class="outline-card">
+                    <h3>Network Science</h3>
+                    <p class="card-desc">Analyze complex systems by examining their underlying structures</p>
+                    <ul>
+                        <li>Graph theory fundamentals</li>
+                        <li>Network metrics and structural properties</li>
+                        <li>Random networks and scale-free networks</li>
+                        <li>Community detection algorithms</li>
+                        <li>Dynamics on networks</li>
+                    </ul>
+                </div>
+                <div class="outline-card">
+                    <h3>Agent-Based Modeling</h3>
+                    <p class="card-desc">Design complex systems from the bottom up</p>
+                    <ul>
+                        <li>Classical agent-based models</li>
+                        <li>Epidemic and segregation models</li>
+                        <li>Opinion dynamics and cooperation</li>
+                        <li>Game-theoretic models</li>
+                        <li>Parameter sweeps and sensitivity analysis</li>
+                    </ul>
+                </div>
+                <div class="outline-card">
+                    <h3>LLM-Driven Simulations</h3>
+                    <p class="card-desc">Extend models with language-enabled, heterogeneous agents</p>
+                    <ul>
+                        <li>LLM API calls and prompt design</li>
+                        <li>LLM-assisted code understanding</li>
+                        <li>Language-enabled social simulations</li>
+                        <li>Interdisciplinary project design</li>
+                        <li>Reproducible computational research</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Instructor Info -->
+            <div class="info-box instructor-info-box">
+                <h4>Instructor & Teaching Assistant</h4>
+                <div class="two-col-list">
+                    <div>
+                        <p class="instructor-name"><strong>Prof. Zhanzhan Zhao</strong></p>
+                        <p class="instructor-email"><a href="mailto:zhanzhanzhao@cuhk.edu.cn">zhanzhanzhao@cuhk.edu.cn</a></p>
+                        <p class="instructor-name"><strong>Office hours: Wednesdays 11:20 am – 12:20 pm (TXB 908)</strong></p>
+                    </div>
+                    <div>
+                        <p class="instructor-name"><strong>TA: Haochuan Liu</strong></p>
+                        <p class="instructor-email"><a href="mailto:haochuanliu@link.cuhk.edu.cn">haochuanliu@link.cuhk.edu.cn</a></p>
+                        <p class="instructor-name"><strong>Office hours: Wednesdays 11:20 am – 12:20 pm (TXB 908)</strong></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Learning Objectives -->
+            <div class="info-box">
+                <h4>Learning Outcomes</h4>
+                <p>By the end of the course, students will be able to:</p>
+                <ol>
+                    <li>Analyze real-world complex networks by computing and interpreting core metrics and structural properties.</li>
+                    <li>Explain the dynamics of networks, including the formation and characteristics of random networks and scale-free networks.</li>
+                    <li>Implement and evaluate dynamics on networks through classical agent-based models, explain emergent patterns from individual incentives, and conduct parameter sweeps and sensitivity analyses.</li>
+                    <li>Formulate real-world social questions as clear model specifications (agents, rules, data inputs) and justify modeling choices and assumptions. Compare and apply different approaches to building agent-based models, including rule-based methods, game-theoretic models, and LLM-driven approaches.</li>
+                    <li>Design and execute interdisciplinary research projects in groups by selecting themes, conducting literature reviews, identifying research problems, and developing reproducible code and analyses with tools taught in class.</li>
+                </ol>
+            </div>
+
+            <!-- Prerequisites -->
+            <div class="info-box">
+                <h4>Prerequisites / Co-requisites</h4>
+                <p>Students are suggested to develop basic Python programming skills during the semester in order to complete assignments effectively.</p>
+            </div>
+
+            <!-- Assessment -->
+            <div id="assessment" class="info-box assessment-block" style="scroll-margin-top: 80px;">
+                <h4>Assessment Scheme</h4>
+
+                <div class="assessment-table-wrapper">
+                    <table class="assessment-table">
+                        <thead>
+                            <tr><th>Component</th><th>Weight</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td><strong>Class Participation</strong></td><td>20%</td></tr>
+                            <tr><td><strong>Lab Engagement</strong></td><td>20%</td></tr>
+                            <tr><td><strong>Midterm Project</strong></td><td>30%</td></tr>
+                            <tr><td><strong>Final Project</strong></td><td>30%</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="assessment-detail">
+                    <h5>Class Participation (20%)</h5>
+                    <div class="two-col-list">
+                        <div>
+                            <p><strong>Self-introductions (10%)</strong></p>
+                            <p class="detail">Brief self-introductions help establish connections with peers and contribute to a more interactive class atmosphere. This also offers practice for introducing yourself in professional settings.</p>
+                        </div>
+                        <div>
+                            <p><strong>Project Discussions (10%)</strong></p>
+                            <p class="detail">Participate in discussions related to the class project, sharing ideas, challenges, and progress. This is an opportunity to receive feedback from peers and the instructor.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="assessment-detail">
+                    <h5>Lab Engagement (20%)</h5>
+                    <p>Actively participate in in-class lab activities and tasks where you will gain hands-on experience in designing and analyzing complex systems.</p>
+                </div>
+
+                <div class="assessment-detail">
+                    <h5>Midterm Project (30%)</h5>
+                    <p>Explore a research stream that interests you. Select a paper from the required reading list, thoroughly read it, explore papers that cite it, and find a research stream to write a literature review about. Submit a written report summarizing the literature review, including critiques and proposed research questions. Give a 15-minute presentation (5 min Q&amp;A) summarizing expected contributions and plans of action. Students may work individually or in teams of two.</p>
+                </div>
+
+                <div class="assessment-detail">
+                    <h5>Final Project (30%)</h5>
+                    <p>Pick up your proposal from the midterm project and make progress following your previous plan of action. Submit a final report documenting your research process, findings, and conclusions. Give a final in-class presentation explaining your research question, methods, results, and contributions. For team projects, each member must summarize their contribution, which will also be used for grade evaluation.</p>
+                </div>
+            </div>
+
+            <!-- Course Components -->
+            <div id="components" class="info-box" style="scroll-margin-top: 80px;">
+                <h4>Course Components</h4>
+
+                <div class="assessment-table-wrapper" style="margin-bottom: 16px;">
+                    <table class="assessment-table">
+                        <thead>
+                            <tr><th>Activity</th><th>Hours/week</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td><strong>Class participation</strong></td><td>0.5</td></tr>
+                            <tr><td><strong>Lecture</strong></td><td>2.5</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <p style="margin-bottom: 16px;">The course employs a mix of teaching strategies and activities to encourage active learning, critical thinking, and hands-on experience. These activities are designed to foster collaboration, creativity, and a deep understanding of the key concepts in complex systems.</p>
+
+                <ul style="list-style: none; padding-left: 0;">
+                    <li style="margin-bottom: 16px;">
+                        <strong style="display: block; margin-bottom: 6px;">Lectures</strong>
+                        <p style="margin: 0;">Lectures introduce the foundational concepts, theories, and hands-on computational lab instructions.</p>
+                    </li>
+                    <li>
+                        <strong style="display: block; margin-bottom: 6px;">Class participation</strong>
+                        <p style="margin: 0;">Class participation includes students' self-introductions, lab engagements, and project discussions. Students will introduce themselves, learn from hands-on practicing, and engage in discussions to receive feedback and refine their projects. These activities foster peer learning and collaborative problem-solving.</p>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Reading -->
+            <div class="info-box">
+                <h4>Required Reading</h4>
+                <ol class="paper-list">
+                    <li><a href="https://doi.org/10.1126/science.286.5439.509" target="_blank">Barabási, A. L., & Albert, R. (1999). Emergence of scaling in random networks. <i>Science</i>, 286(5439), 509–512.</a></li>
+                    <li><a href="https://doi.org/10.1126/science.1173299" target="_blank">Barabási, A. L. (2009). Scale-free networks: A decade and beyond. <i>Science</i>, 325(5939), 412–413.</a></li>
+                    <li><a href="https://doi.org/10.1126/science.aap9559" target="_blank">Vosoughi, S., Roy, D., & Aral, S. (2018). The spread of true and false news online. <i>Science</i>, 359(6380), 1146–1151.</a></li>
+                    <li><a href="https://doi.org/10.1073/pnas.2007753117" target="_blank">Wilder, B., Charpignon, M., Killian, J. A., Ou, H. C., Mhatre, A., & Tambe, M. (2020). Modeling between-population variation in COVID-19 dynamics in Hubei, Lombardy, and New York City. <i>Proceedings of the National Academy of Sciences</i>, 117(41), 25904–25910.</a></li>
+                    <li><a href="https://doi.org/10.1073/pnas.0905322106" target="_blank">Grauwin, S., Bertin, E., Lemoy, R., & Jensen, P. (2009). Competition between collective and individual dynamics. <i>Proceedings of the National Academy of Sciences</i>, 106(49), 20622–20626.</a></li>
+                    <li><a href="https://doi.org/10.1073/pnas.2102139118" target="_blank">Axelrod, R., Daymude, J. J., & Forrest, S. (2021). Preventing extreme polarization of political attitudes. <i>Proceedings of the National Academy of Sciences</i>, 118(50), e2102139118.</a></li>
+                    <li><a href="https://doi.org/10.1126/science.1133755" target="_blank">Nowak, M. A. (2006). Five rules for the evolution of cooperation. <i>Science</i>, 314(5805), 1560–1563.</a></li>
+                    <li><a href="https://arxiv.org/abs/2411.10109" target="_blank">Park, J. S., Zou, C. Q., Shaw, A., Chartash, D., & Mindell, J. A. (2024). Generative agent simulations of 1,000 people. <i>arXiv</i>. https://arxiv.org/abs/2411.10109</a></li>
+                </ol>
+                <h4 style="margin-top: 20px;">Recommended</h4>
+                <p>Additional readings and lab resources will be shared at the end of each week's lecture.</p>
+            </div>
+
+            <!-- Late Policy -->
+            <div id="policies" class="info-box" style="scroll-margin-top: 80px;">
+                <h4>Late Policy</h4>
+                <p>Under normal circumstances, coursework assignments will be marked within two weeks. If an assignment is submitted after the due date without prior permission from the instructor, it will receive a grade of zero. The above grade descriptor is subject to change.</p>
+            </div>
+
+
+            <!-- Academic Honesty -->
+            <div class="info-box">
+                <h4>Academic Honesty</h4>
+                <p>Attention is drawn to University policy and regulations on honesty in academic work, and to the disciplinary guidelines and procedures applicable to breaches of such policy and regulations. Details may be found at <a href="https://registry.cuhk.edu.cn/en/page/30" target="_blank">https://registry.cuhk.edu.cn/en/page/30</a>.</p>
+                <p style="margin-top: 12px;">With each assignment, students will be required to submit a signed declaration that they are aware of these policies, regulations, guidelines and procedures. For group projects, all students of the same group should be asked to sign on the declaration. Only the final version of the assignment should be submitted via VeriGuide.</p>
+            </div>
+
+            <!-- Grade Descriptor -->
+            <div id="grades" class="info-box" style="scroll-margin-top: 80px;">
+                <h4>Grade Descriptor</h4>
+                <div class="grade-table-wrapper">
+                    <table class="grade-table">
+                        <thead>
+                            <tr><th>Grade</th><th>Score</th><th>Explanation</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>A</td><td>95+</td><td>Outstanding: Exceptionally good performance on all learning outcomes.</td></tr>
+                            <tr><td>A-</td><td>90–94</td><td>Very good: Outstanding performance on the majority of learning outcomes.</td></tr>
+                            <tr><td>B+</td><td>85–89</td><td>Slightly above expectation: Generally meet expectations on all learning outcomes with one or two slightly exceeding expectations.</td></tr>
+                            <tr><td>B</td><td>80–84</td><td>Good: Solid performance on some learning outcomes, while others are adequate.</td></tr>
+                            <tr><td>B-</td><td>75–79</td><td>Meet expectation: Acceptable performance on almost all learning outcomes.</td></tr>
+                            <tr><td>C</td><td>65–74</td><td>Below expectation: Barely meet requirements for a few learning outcomes.</td></tr>
+                            <tr><td>D</td><td>60–64</td><td>Meet minimum requirement: Only a small portion of learning outcomes are fulfilled.</td></tr>
+                            <tr><td>F</td><td>&lt;60</td><td>Fail: Unsatisfactory performance overall or total failure to meet major assessment requirements.</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+
+    <footer id="footer" class="footer"></footer>
+
+    <script src="js/course.js"></script>
+    <script src="js/components.js"></script>
+    <script>renderPage('outline');</script>
+    <script src="theme.js"></script>
+</body>
+</html>

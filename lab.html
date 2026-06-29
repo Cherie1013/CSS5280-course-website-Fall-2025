@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab — CSS5280</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="theme-picker" class="theme-picker"></div>
+
+
+    <div id="compact-header"></div>
+
+<nav id="navbar" class="navbar"></nav>
+
+<main class="page-content">
+        <div class="section-container">
+            <div class="page-title">
+                <h2>Labs &amp; Class Participation</h2>
+                <p>lab engagement and Class participation together account for <strong>40%</strong> of the final grade. Labs are conducted in class; handouts and starter materials are provided below.</p>
+            </div>
+
+            <!-- Participation Overview -->
+            <div class="participation-grid">
+                <a href="#lab-assignments" class="outline-nav-card">
+                    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;">
+                        <h4>Lab Assignments</h4>
+                    </div>
+                    <p>Hands-on labs covering network metrics, community detection, and agent-based modeling.</p>
+                </a>
+                <a href="#participation" class="outline-nav-card">
+                    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;">
+                        <h4>Class Participation</h4>
+                    </div>
+                    <p>Self-introductions and project discussions that foster an interactive learning environment.</p>
+                </a>
+            </div>
+
+
+            <!-- Lab Assignments -->
+            <div id="lab-assignments" class="section-header" style="margin-top: 64px; scroll-margin-top: 80px;">
+                <h2>Labs</h2>
+                <p>Lab handouts and starter code. Additional in-class lab activities without separate handouts are listed on the <a href="schedule.html">schedule</a>.</p>
+            </div>
+
+            <div class="assignment-list">
+                <div class="assignment-card">
+                    <div class="assignment-header">
+                        <span class="assignment-num">Lab 1</span>
+                    </div>
+                    <h3>Network Measures</h3>
+                    <div class="lab-detail">
+                        <p>Pick one real network from <a href="https://icon.colorado.edu/networks" target="_blank" rel="noopener">ICON</a>. Using Python + NetworkX in Google Colab, compute and visualize:</p>
+                        <ul>
+                            <li>Degree distribution, and average &amp; max degree</li>
+                            <li>Shortest path-length distribution, avg path length, diameter</li>
+                            <li>Clustering-coefficient distribution, average clustering coefficient</li>
+                        </ul>
+                        <p>You may consult the <a href="https://networkx.org/documentation/stable/index.html" target="_blank" rel="noopener">NetworkX docs</a>; you are encouraged to ask your favorite LLM to help generate/clean up code (cite the prompt you used).</p>
+                        <h4>What to produce</h4>
+                        <ol>
+                            <li>Notebook (.ipynb) with runnable cells and comments.</li>
+                            <li>Plots (PNG in the repo/drive and displayed in the notebook):
+                                <ul>
+                                    <li>Degree histogram (linear and loglog)</li>
+                                    <li>Path-length histogram (per giant component; state how you handled disconnected nodes)</li>
+                                    <li>Clustering-coefficient histogram</li>
+                                </ul>
+                            </li>
+                            <li>One-page write-up (in the notebook or a short PDF section):
+                                <ul>
+                                    <li>Dataset description (source, nodes/edges, your preprocessing)</li>
+                                    <li>Numeric summary: average &amp; max degree, avg path length, diameter, average clustering coefficient</li>
+                                    <li>A few sentences interpreting each plot (not just restating numbers)</li>
+                                </ul>
+                            </li>
+                        </ol>
+                        <p>Detailed information and requirements please refer to Lab1.pdf.</p>
+                    </div>
+                    <div class="assignment-links">
+                        <a href="lab/Lab1.zip" class="link-btn" download>Download Lab 1 Materials</a>
+                    </div>
+                </div>
+
+                <div class="assignment-card">
+                    <div class="assignment-header">
+                        <span class="assignment-num">Lab 2</span>
+                    </div>
+                    <h3>Community Detection in Networks</h3>
+                    <div class="assignment-links">
+                        <a href="lab/lab2.pdf" class="link-btn" download>Download Lab 2 Materials</a>
+                    </div>
+                </div>
+
+                <div class="assignment-card">
+                    <div class="assignment-header">
+                        <span class="assignment-num">Lab 3</span>
+                    </div>
+                    <h3>SIS/SIRS Epidemic Simulation</h3>
+                    <div class="assignment-links">
+                        <a href="lab/lab3.pdf" class="link-btn" download>Download Lab 3 Materials</a>
+                    </div>
+                </div>
+
+                <div class="assignment-card">
+                    <div class="assignment-header">
+                        <span class="assignment-num">Lab 4</span>
+                    </div>
+                    <h3>Simulate a basic city model</h3>
+                    <div class="assignment-links">
+                        <a href="lab/lab4.zip" class="link-btn" download>Download Lab 4 Materials</a>
+                    </div>
+                </div>
+
+                <div class="assignment-card">
+                    <div class="assignment-header">
+                        <span class="assignment-num">Lab 5</span>
+                    </div>
+                    <h3>Schelling-simulation</h3>
+                    <div class="assignment-links">
+                        <a href="lab/lab5.zip" class="link-btn" download>Download Lab 5 Materials</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Participation Details -->
+            <div id="participation" class="section-header" style="margin-top: 48px; scroll-margin-top: 80px;">
+                <h2>Class Participation</h2>
+                <p>Participation includes brief self-introductions and project discussions.</p>
+            </div>
+
+            <div class="info-box">
+                <h4>Self-introductions (10%)</h4>
+                <div class="participation-detail">
+                    <p>Dear students,</p>
+                    <p>Starting from the second week of classes (September 9), three students will give self-introductions in class each week (except on October 29, the day of the Midterm Presentation). Please click the link below to register and select your preferred time slot:</p>
+                    <p><a href="https://docs.qq.com/sheet/DVWxEVU1RdnVzUmFZ?tab=BB08J2" target="_blank" rel="noopener">Self-introduction Sign-up Sheet</a></p>
+                    <p>Your self-introduction should focus on professional/academic job-seeking scenarios, covering basic information such as your personal background, work/research interests, as well as personality traits, hobbies, and other details that highlight your individuality. The presentation should be 3-5 minutes long and require slides. Both the speech and slides must be in English.</p>
+                    <p>Students scheduled to present in a given week must upload their slides here by Tuesday at 17:00.</p>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <h4>Project Discussions (10%)</h4>
+                <p>Participate in discussions related to the class project, where you will share your ideas, challenges, and progress. This is an opportunity to receive feedback from your peers and the instructor.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer id="footer" class="footer"></footer>
+
+    <script src="js/course.js"></script>
+    <script src="js/components.js"></script>
+    <script>renderPage('lab');</script>
+    <script src="theme.js"></script>
+</body>
+</html>

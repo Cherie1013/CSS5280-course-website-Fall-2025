@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS5280 — Modeling and Analysis of Complex Systems</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="theme-picker" class="theme-picker"></div>
+
+    <!-- ===== 导航栏 ===== -->
+    <nav id="navbar" class="navbar"></nav>
+
+    <!-- ===== Hero 主视觉区域 ===== -->
+    <section class="hero-section">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+        </div>
+        <div class="hero-content">
+            <div class="course-meta">
+                <span class="course-code">CSS5280</span>
+                <span class="course-semester">Fall 2025</span>
+            </div>
+            <h1 class="hero-title">Modeling and Analysis of<br><span class="highlight">Complex Systems</span></h1>
+            <p class="hero-subtitle">A computational study of complex systems through network science and agent-based modeling, from graph theory to LLM-driven social simulations.</p>
+            <div class="instructor-bar">
+                <div class="info-item">
+                    <span class="info-label">Instructor</span>
+                    <span class="info-value">Prof. Zhanzhan Zhao</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Email</span>
+                    <span class="info-value"><a href="mailto:zhanzhanzhao@cuhk.edu.cn">zhanzhanzhao@cuhk.edu.cn</a></span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Office Hours</span>
+                    <span class="info-value">Wednesdays 11:20 am – 12:20 pm (TXB 908)</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Class time</span>
+                    <span class="info-value">8:30 am – 11:20 am, Wednesdays (TA 317)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== 快捷入口 ===== -->
+    <section class="quick-section">
+        <div class="section-container">
+            <div class="section-header center">
+                <span class="section-tag">GET STARTED</span>
+                <h2>Explore the course</h2>
+            </div>
+            <div class="quick-grid">
+                <a href="outline.html" class="quick-card-v2">
+                    <div class="quick-accent" style="background: #0ea5e9;"></div>
+                    <span class="quick-icon-v2"><strong>Outline</strong></span>
+                    <p>Course description, learning outcomes, and assessment scheme</p>
+                    <span class="quick-arrow">→</span>
+                </a>
+                <a href="schedule.html" class="quick-card-v2">
+                    <div class="quick-accent" style="background: #8b5cf6;"></div>
+                    <span class="quick-icon-v2"><strong>Schedule</strong></span>
+                    <p>Weekly topics, labs, project discussions, and due dates</p>
+                    <span class="quick-arrow">→</span>
+                </a>
+                <a href="lecture.html" class="quick-card-v2">
+                    <div class="quick-accent" style="background: #f59e0b;"></div>
+                    <span class="quick-icon-v2"><strong>Lecture</strong></span>
+                    <p>Lecture slides, lab handouts, and suggested readings</p>
+                    <span class="quick-arrow">→</span>
+                </a>
+                <a href="lab.html" class="quick-card-v2">
+                    <div class="quick-accent" style="background: #10b981;"></div>
+                    <span class="quick-icon-v2"><strong>Lab</strong></span>
+                    <p>Lab instructions and starter code</p>
+                    <span class="quick-arrow">→</span>
+                </a>
+                <a href="project.html" class="quick-card-v2">
+                    <div class="quick-accent" style="background: #ec4899;"></div>
+                    <span class="quick-icon-v2"><strong>Project</strong></span>
+                    <p>Midterm and final project guidelines and example projects</p>
+                    <span class="quick-arrow">→</span>
+                </a>
+                <a href="materials.html" class="quick-card-v2">
+                    <div class="quick-accent" style="background: #7e7fcb;"></div>
+                    <span class="quick-icon-v2"><strong>Materials</strong></span>
+                    <p>Required readings in network science and agent-based modeling</p>
+                    <span class="quick-arrow">→</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== 近期公告 ===== -->
+    <section class="announcements-section">
+        <div class="section-container">
+            <div class="section-header center">
+                <span class="section-tag">STAY UPDATED</span>
+                <h2>Recent Announcements</h2>
+            </div>
+            <div class="announcement-list">
+                <div class="announcement-card pinned">
+                    <div class="announcement-badge">NEW</div>
+                    <div class="announcement-meta">
+                        <span class="announcement-date">Aug 25, 2025</span>
+                    </div>
+                    <h3>Welcome to CSS 5280!</h3>
+                    <p>First class will be held on <strong>Sep 3, 2025</strong>. Please review the syllabus and come prepared. We will cover network science and agent-based modeling, including LLM-driven social simulations.</p>
+                </div>
+                <div class="announcement-card">
+                    <div class="announcement-meta">
+                        <span class="announcement-date">Aug 20, 2025</span>
+                    </div>
+                    <h3>Course Website is Live</h3>
+                    <p>All course materials will be posted here throughout the semester. Check back regularly for lecture slides, lab handouts, readings, and assignment updates.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== 页脚 ===== -->
+    <footer id="footer" class="footer"></footer>
+
+    <script src="js/course.js"></script>
+    <script src="js/components.js"></script>
+    <script>renderHomePage();</script>
+    <script src="theme.js"></script>
+</body>
+</html>
